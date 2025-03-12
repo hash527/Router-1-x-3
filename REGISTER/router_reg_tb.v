@@ -1,12 +1,3 @@
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_reg_tb.v
-DATE        :  23/08/2021
-DESCRIPTION :  ROUTER REGISTER - TB
-
-****************************************************************************************************/
-
 module router_reg_tb();
 
 reg clock,resetn,pkt_valid,fifo_full,detect_add,ld_state,laf_state,full_state,lfd_state,rst_int_reg;

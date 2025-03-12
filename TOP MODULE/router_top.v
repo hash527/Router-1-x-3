@@ -1,12 +1,3 @@
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_top.v
-DATE        :  25/08/2021
-DESCRIPTION :  ROUTER - TOP design
-
-****************************************************************************************************/
-
 module router_top(clock,resetn,pkt_valid,read_enb_0,read_enb_1,read_enb_2,data_in,
 				    busy,err,vld_out_0,vld_out_1,vld_out_2,data_out_0,data_out_1,data_out_2);
   

@@ -1,12 +1,3 @@
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_sync_tb.v
-DATE        :  24/08/2021
-DESCRIPTION :  ROUTER SYNCHRONIZER - TB
-
-****************************************************************************************************/
-
 module router_sync_tb();
 	wire [2:0]write_enb;
 	wire fifo_full;

@@ -1,13 +1,3 @@
-
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_fifo.v
-DATE        :  10/08/2021
-DESCRIPTION :  ROUTER - FIFO design
-
-****************************************************************************************************/
-
 module router_fifo(clock,resetn,soft_reset,write_enb,read_enb,
                    lfd_state,data_in,full,empty,data_out);
   

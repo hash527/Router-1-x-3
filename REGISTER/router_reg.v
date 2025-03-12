@@ -1,12 +1,3 @@
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_reg.v
-DATE        :  23/08/2021
-DESCRIPTION :  ROUTER - REGISTER design
-
-****************************************************************************************************/
-
 module router_reg(clock,resetn,pkt_valid,data_in,fifo_full,detect_add,
                   ld_state,laf_state,full_state,lfd_state,rst_int_reg,err,
                   parity_done,low_packet_valid,dout);

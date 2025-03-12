@@ -1,12 +1,3 @@
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_top_tb.v
-DATE        :  25/08/2021
-DESCRIPTION :  ROUTER - TOP testbench
-
-****************************************************************************************************/
-
 module router_top_tb();
 
 reg clk, resetn, read_enb_0, read_enb_1, read_enb_2, packet_valid;

@@ -1,12 +1,3 @@
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_fifo_tb.v
-DATE        :  10/08/2021
-DESCRIPTION :  ROUTER - FIFO TB
-
-****************************************************************************************************/
-
 module router_fifo_tb();
 
 reg clock,resetn,soft_reset,write_enb,read_enb,lfd_state;

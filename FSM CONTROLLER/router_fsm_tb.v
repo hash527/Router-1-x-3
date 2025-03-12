@@ -1,12 +1,3 @@
-/***************************************************************************************************
-
-NAME        :  MOHAMED ANAS MN
-FILENAME    :  router_fsm_tb.v
-DATE        :  22/08/2021
-DESCRIPTION :  ROUTER FSM - TB
-
-****************************************************************************************************/
-
 module router_fsm_tb();
 
 reg clock,resetn,pkt_valid,fifo_full,fifo_empty_0,fifo_empty_1,fifo_empty_2,soft_reset_0,soft_reset_1,soft_reset_2,parity_done,low_packet_valid;
